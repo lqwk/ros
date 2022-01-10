@@ -1,0 +1,10 @@
+[package]
+name = "ros"
+version = "0.1.0"
+authors = ["Qingwei Lan <lqwdev@gmail.com>"]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
